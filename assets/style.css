@@ -34,7 +34,13 @@ font-size: 1vw;
 text-align: center;
 height: 100%;
 background-color: var(--card-front-color);
+} 
+
+.cartao__conteudo__pergunta p{
+color: var(--text-color);
+font-weight: 500;
 }
+
 footer {
 background-color: black;
 color: white;
