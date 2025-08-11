@@ -1,22 +1,23 @@
 criaCartao(
-    'Programação',
-    'O que é Python?',
-    'O Python é uma linguagem de programação'
+    'Biologia',
+    'O que são mitocôndrias?',
+    'As mitocôndrias são organelas encontradas na maioria das células eucarióticas, ou seja, nas células que possuem núcleo.'
+
 )
 
 criaCartao(
     'Geografia',
-    'Qual a capital da França?',
-    'A capital da França é Paris'
+    'Qual o país mais populoso do mundo e qual a sua população aproximada?',
+    'A Índia é o país mais populoso, com mais de 1,4 bilhão de habitantes.'
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'Geografia',
+    'Qual o maior oceano do mundo?',
+    'O Oceano Pacífico.'
 )
     criaCartao(
     'Lingua inglesa',
-    'Como se diz OI em inglês?',
-    'Oi em ingles é HI (RAI)'
+    'Oque é "What's your name" em portugês?'
+    'Qual é o seu nome'
 )
