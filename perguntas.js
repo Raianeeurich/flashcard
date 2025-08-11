@@ -18,6 +18,6 @@ criaCartao(
 )
     criaCartao(
     'Lingua inglesa',
-    'Oque é "What's your name" em portugês?'
+    'Oque é "What's your name" em portugês?',
     'Qual é o seu nome'
 )
