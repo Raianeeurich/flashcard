@@ -1,12 +1,13 @@
 :root {
---text-color: #8694a4;
---card-front-color: #e8ecf2;
---card-back-color: #9a2ca6;
+--text-color: #DBE4EF;
+--card-front-color: #144480;
+--card-back-color: #0dd9dc;
 }
 
 body {
-background: url('bg-desktop.webp');
+background: url('1600w-GXj9Ju-8DYk.webp');
 font-family: Bai Jamjuree;
+
 }
 
 #container {
@@ -16,13 +17,13 @@ justify-content: space-between;
 padding: 4rem;
 gap: 3rem;
 }
-
 .cartao {
 margin: 1rem 1rem;
-background-color: rgb(137, 196, 189);
+background-color: rgb(6, 241, 206);
 height: 20rem;
 flex-grow: 1;
 flex-basis: calc(33% -6rem);
+
 }
 
 .cartao__conteudo h3 {
@@ -43,8 +44,7 @@ height: 100%;
 background-color: var(--card-front-color);
 transform-style: preserve-3d;
 transition: transform 300ms ease-in-out;
-} 
-
+}
 .cartao__conteudo p {
 margin-top: 1rem;
 padding: 2rem;
@@ -56,14 +56,13 @@ font-size: 1.4vw;
 color: var(--text-color);
 font-weight: 500;
 }
-
 .cartao__conteudo__resposta p{
-    color: var(--card-back-color);
-    font-weight: 700;
+color: var(--card-back-color);
+font-weight: 700;
 }
 
 .cartao.active .cartao__conteudo {
-    transform: rotateY(180deg);
+transform: rotateY(180deg);
 }
 
 .cartao__conteudo__pergunta,
@@ -72,13 +71,12 @@ backface-visibility: hidden;
 position: absolute;
 height: 100%;
 width: 100%;
- box-sizing: border-box;
+box-sizing: border-box;
 }
-
 .cartao__conteudo__resposta {
 transform: rotateY(180deg);
- background-color: rdba(0, 244, 191, 0.2);
-     border: 4px solid var(--card-back-color);
+background-color: rdba(0, 244, 191, 0.2);
+border: 4px solid var(--card-back-color);
 }
 
 
@@ -99,19 +97,19 @@ margin-top: 0,5rem;
 
 @media (max-width: 560px) {
 
-    body {
-        background: url('bg-mobile.webp');
-    }
-    .cartao {
-        flex: 1 0 calc(100% - 1rem);
-    }
+body {
+background: url('bg-mobile.webp');
+}
+.cartao {
+flex: 1 0 calc(100% - 1rem);
+}
 
-    .cartao__conteudo h3 {
-    font-size: 3vw;
+.cartao__conteudo h3 {
+font-size: 3vw;
 }
 
 .cartao__conteudo p {
-    font-size: 3.8vw;
+font-size: 3.8vw;
 }
 
 }
